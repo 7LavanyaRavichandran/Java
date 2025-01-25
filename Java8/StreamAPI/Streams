@@ -1,0 +1,11 @@
+Pre-requisite:
+Basic Knowledge of Java, Lambda expressions, Functional interface, Collections.
+
+What is Stream ?
+@Since Java 1.8
+Package : java.util.stream
+Type: Interface
+Accepts Input : Predicate
+Return Type : Returns a new stream
+Returns a stream consisting of the elements of this stream that match the given predicate.
+
