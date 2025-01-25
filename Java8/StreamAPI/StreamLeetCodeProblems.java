@@ -19,9 +19,8 @@ public class StreamLeetCodeProblems {
 		
 		try {
 			int result = findMinimumOperations(s1,s2,s3);
-			System.out.println(result);
+			System.out.println( "Minimum length of String is " +result);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
