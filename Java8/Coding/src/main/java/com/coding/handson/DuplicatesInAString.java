@@ -32,5 +32,14 @@ public class DuplicatesInAString {
 
        List<String> ll =  listduplictaes.stream().distinct().collect(Collectors.toList());
         System.out.println(ll);
+
+        //practice
+//        () -> Arrays.stream(s.split("")).collect(Collectors.groupingBy(map -> map.toLowerCase()), LinkedHashMap::new, Collectors.counting())
+//                .entrySet()
+//                .stream()
+//                .filter(e-> e.getValue()>1)
+//                .collect(Collectors.toList());
+
+
     }
 }
